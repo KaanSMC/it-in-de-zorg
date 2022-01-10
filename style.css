@@ -1,6 +1,6 @@
 
 
-body {background-color: black;}
+body {background-color:rgb(250, 231, 255)}
 .dot {
   height: 150px;
   width: 150px;
@@ -8,9 +8,30 @@ body {background-color: black;}
   border-radius: 50%;
   display: inline-block;
 }
+a.bubble {
+  display:flex;/*CSS3*/
+  align-items:center;/*Vertical align*/
+  justify-content:center;/*horizontal align*/
 
-img.bubbel {
   height: 150px;
   width: 150px;
+  background-size: 150px;
+  background-image: url(Soap-Bubbles-PNG-Free-Image.png);
+  font-size: 30px;
+  position:absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic; 
+  color:white; 
+}
+div{
+  display:flex;/*CSS3*/
+  align-items:center;/*Vertical align*/
+  justify-content:center;/*horizontal align*/
+  border: 1px solid blue;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  color:whitesmoke;
+  background-color: lightblue;
 }
 
