@@ -12,12 +12,10 @@ a.bubble {
   display:flex;/*CSS3*/
   align-items:center;/*Vertical align*/
   justify-content:center;/*horizontal align*/
-
-
   height: 150px;
   width: 150px;
   background-size: 150px;
-  background-image: url(Soap-Bubbles-PNG-Free-Image.png);
+  background-image: url(/image/bubble.png);
   font-size: 30px;
   position:absolute;
   font-family: Arial, Helvetica, sans-serif;
