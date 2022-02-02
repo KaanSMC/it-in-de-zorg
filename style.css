@@ -1,6 +1,6 @@
 
 
-body {background-color:#0b5394}
+body {background-color:rgba(10, 4, 4, 0)}
 .dot {
   height: 150px;
   width: 150px;
@@ -20,17 +20,21 @@ a.bubble {
   position:absolute;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic; 
-  color:white; 
+  color:rgb(12, 8, 8); 
 }
 div{
   display:flex;/*CSS3*/
   align-items:center;/*Vertical align*/
   justify-content:center;/*horizontal align*/
-  border: 1px solid blue;
+  border: 1px solid rgb(151, 151, 228);
   height: 150px;
   width: 150px;
   position: absolute;
   color:whitesmoke;
   background-color: lightblue;
 }
-
+li {
+  display: inline;
+  li {
+  float: left;
+}
