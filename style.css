@@ -2,7 +2,7 @@
 
 body {background-color:#abcc9f}
 {display: flex;
-    justify-content: center;}
+justify-content: center;}
 .dot {
   height: 350px;
   width: 150px;
@@ -11,9 +11,9 @@ body {background-color:#abcc9f}
   display: inline-block;
 }
 .wrapper{
-  width: 100px;  
-  left: 25%;
-  border: 3px solid #abcc9f;
+  margin: auto;
+  width: 90%;  
+  border: 1px solid darkgreen;
   position: relative;
 }
 a.bubble {
