@@ -8,6 +8,11 @@ body {background-color:#abcc9f}
   border-radius: 50%;
   display: inline-block;
 }
+.wrapper{
+  width: 1000px;
+  left: 25%;
+  border: 2px solid red;
+}
 a.bubble {
   display:flex;/*CSS3*/
   align-items:center;/*Vertical align*/
@@ -22,16 +27,17 @@ a.bubble {
   font-style: italic; 
   color:#5a6c75; 
 }
-div{
+.block{
   display:flex;/*CSS3*/
   align-items:center;/*Vertical align*/
   justify-content:center;/*horizontal align*/
-  border: 1px solidrgb(86, 110, 117);
+  border: 1px solidrgb(90, 120, 200);
   height: 150px;
   width: 200px;
   position: absolute;
   color:#5a6c75;
   background-color:#a3bf99;
+  style: "top:150px;left:250px;"
 }
 li {
   display: inline;
