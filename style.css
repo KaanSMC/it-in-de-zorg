@@ -1,6 +1,8 @@
 
 
 body {background-color:#abcc9f}
+{display: flex;
+    justify-content: center;}
 .dot {
   height: 350px;
   width: 150px;
@@ -9,9 +11,9 @@ body {background-color:#abcc9f}
   display: inline-block;
 }
 .wrapper{
-  width: 1000px;
+  width: 100px;  
   left: 25%;
-  border: 2px solid red;
+  border: 3px solid red;
 }
 a.bubble {
   display:flex;/*CSS3*/
@@ -37,7 +39,8 @@ a.bubble {
   position: absolute;
   color:#5a6c75;
   background-color:#a3bf99;
-  style: "top:150px;left:250px;"
+  top:150px;
+  left:250px;
 }
 li {
   display: inline;
