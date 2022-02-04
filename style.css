@@ -13,7 +13,8 @@ body {background-color:#abcc9f}
 .wrapper{
   width: 100px;  
   left: 25%;
-  border: 3px solid red;
+  border: 3px solid #abcc9f;
+  position: relative;
 }
 a.bubble {
   display:flex;/*CSS3*/
