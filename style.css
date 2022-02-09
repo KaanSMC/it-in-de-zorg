@@ -1,8 +1,9 @@
 
-
-body {background-color:#6792AD}
-{display: flex;
-justify-content: center;}
+body {
+  background-color:#6792AD;
+display: flex;
+justify-content: center;
+}
 .dot {
   height: 350px;
   width: 150px;
