@@ -1,13 +1,12 @@
-https://unsplash.com/s/photos/bubbles-background
-site voor achtergronden
 
-body {background-color:#abcc9f}
+
+body {background-color:#6792AD}
 {display: flex;
 justify-content: center;}
 .dot {
   height: 350px;
   width: 150px;
-  background-color:#6792AD;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
 }
@@ -40,11 +39,11 @@ a.bubble {
   width: 200px;
   position: absolute;
   color:#5a6c75;
-  background-color:#a3bf99;
+  background-color:#C6DAE6;
   top:150px;
   left:250px;
-  font-family: Arial, Helvetica, sans-serif
-  font-style: italic;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 li {
   display: inline;
@@ -76,3 +75,4 @@ li a {
 li a:hover {
   background-color: #111;
 }
+https://unsplash.com/s/photos/bubbles-background
