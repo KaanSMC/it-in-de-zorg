@@ -7,7 +7,7 @@ justify-content: center;}
 .dot {
   height: 350px;
   width: 150px;
-  background-color:white;
+  background-color:#6792AD;
   border-radius: 50%;
   display: inline-block;
 }
@@ -43,6 +43,8 @@ a.bubble {
   background-color:#a3bf99;
   top:150px;
   left:250px;
+  font-family: Arial, Helvetica, sans-serif
+  font-style: italic;  
 }
 li {
   display: inline;
