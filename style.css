@@ -1,8 +1,10 @@
 
 body {
-  background-color:#6792AD;
-display: flex;
-justify-content: center;
+  background-color:#6792AD;  
+}
+.homepage{
+  display: flex;
+  justify-content: center;
 }
 .dot {
   height: 350px;
@@ -30,6 +32,10 @@ a.bubble {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic; 
   color:#5a6c75; 
+}
+.bubble1{
+  top:100px;
+  left:50px;
 }
 .block{
   display:flex;/*CSS3*/
