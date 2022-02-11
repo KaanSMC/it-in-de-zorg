@@ -1,7 +1,9 @@
+body{
 
-body {
-  background-color:#6792AD;  
+ background-image: radial-gradient(purple, pink , lightblue);
+
 }
+
 .homepage{
   display: flex;
   justify-content: center;
@@ -37,6 +39,15 @@ a.bubble {
   top:100px;
   left:50px;
 }
+.bubble2{
+  top:200px;
+  left:100px;
+}
+.bubble3{
+  top:50px;
+  left:400px;
+}
+
 .block{
   display:flex;/*CSS3*/
   align-items:center;/*Vertical align*/
@@ -81,5 +92,8 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+.paars {
+  display: inline;
 }
 https://unsplash.com/s/photos/bubbles-background
