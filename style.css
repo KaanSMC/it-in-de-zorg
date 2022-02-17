@@ -4,6 +4,13 @@ body{
   height:100%;
   background-size: cover;
 }
+h1{
+  color: sandybrown;
+}
+
+p{
+  color: white;
+}
 
 .homepage{
   display: flex;
@@ -89,12 +96,24 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: darkcyan;
+
 }
 .paars {
   display: inline;
 }
-https://unsplash.com/s/photos/bubbles-background
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  
+}
+
+table, th, td {
+  border: 1px solid;
+  color: black;
+}
