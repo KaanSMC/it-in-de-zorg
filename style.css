@@ -56,6 +56,13 @@ a.bubble {
   left:400px;
 }
 
+@media (max-width: 600px){
+  .bubble3{
+    top:50px;
+    left:240px;
+  } 
+}
+
 .block{
   display:flex;/*CSS3*/
   align-items:center;/*Vertical align*/
@@ -72,22 +79,16 @@ a.bubble {
   font-style: italic;
 }
 li {
-  display: inline;
-  
-  float: right;
+  display: block;
+  float: left;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  
+  background-color:#5a6c75;
   font-style:montserat;
-}
-
-li {
-  float: left;
 }
 
 li a {
